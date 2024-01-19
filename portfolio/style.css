@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(205, 221, 221);
+}
+
+ nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    margin-right: 200px;
+}
+nav ul li{
+    display: inline-block;
+    margin:  10px 20px;
+}
+nav ul li a{
+    color: rgb(28, 75, 46);
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+.hero{
+    position: relative;
+    margin-left: 6%;
+    margin-top: 15%;
+}
+.hero span{
+    color: rgba(227, 203, 18, 0.92);
+}
+h2{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.hero h1{
+    margin-bottom: 6px;
+    font-size: 57px;
+    margin-bottom: 35px;
+}
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 35px;
+    width: 150px;
+    font-style: oblique;
+    font-size: medium;
+}
+p{
+    font-size: x-large;
+}
+.btn:hover{
+    color: blueviolet;
+    background-color: rgba(227, 203, 18, 0.92);
+}
+
+
+.circle{
+    position: absolute;
+    width: 450px; 
+    height: 450px; 
+    display: flex;
+    border: 1px solid black; 
+    border-radius: 50%; 
+    margin-top: 200px;
+    margin-left: 900px;
+    margin-right: 100px;
+}
+.circle img{
+    position: absolute;
+    width: 450px; 
+    height: 450px; 
+    display: flex;
+    border: 1px solid black; 
+    border-radius: 50%; 
+    margin-bottom: 100px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.ser{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(226, 235, 241);
+    align-items: center;
+    
+}
+.one{
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav span{
+    color: rgb(85, 206, 202);
+}
+nav h2{
+    color: rgb(198, 82, 173);
+}
+
+.one h1{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    
+}
+.one p{
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+.one h4{
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+.two{
+    margin-top: 100px;
+    align-items: end;
+}
+.two img{
+    margin-left: 150px;
+}
+.two h1{
+    padding-bottom: 40px;
+    margin-left: 600px;
+}
+.two ul{
+    margin-right: 110px;
+}
+.two ul li{
+    font-size: larger;
+}
+.ct{
+    margin-top: 150px;
+    margin-left: 600px;
+    
+    
+}
+.as{
+    padding: 10px;
+    border-radius: 6px;
+    width: 145px;
+    background-color:rgb(111, 74, 185) ;
+    color: whitesmoke;
+}
